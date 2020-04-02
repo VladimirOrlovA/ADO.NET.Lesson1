@@ -84,7 +84,7 @@ namespace ADO.NET.Lesson1
         }
 
         // SQL Provider
-        private static void MySqlConnection()
+        private static void MySqlConnection() 
         {
             // получаем строку подключения к БД из файла конфигурации в приложении App.config - XML Configuration File
             ConnectionString = ConfigurationManager.ConnectionStrings["SqlConnection"].ConnectionString;
